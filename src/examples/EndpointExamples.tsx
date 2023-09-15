@@ -202,7 +202,7 @@ const EndpointExamples: React.FC = () => {
     }
   };
 
-  //TEST NET
+  //TEST NET ok
   const getQuotes = async (): Promise<QuoteData | null> => {
     // Build the URL query string from the form values
     const queryString = new URLSearchParams(form).toString();
